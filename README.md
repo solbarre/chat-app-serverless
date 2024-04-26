@@ -1,18 +1,21 @@
 Utilisation de terraform.
 
 
-1-creer table dynamodb nom a personaliser, et key de partition : connectionId
+## 1-creer table dynamodb nom à personnaliser, et key de partition : connectionId ##
 
-2-creation function lambda (4) codes joints au projet
+## 2-creation function lambda (4) codes joints au projet ##
+choisir nodejs16.x
 
 - une pour connect
 - une pour disconnect
 - une pour default
 - une pour sendmessage
+le role sera indiqué avant le lab
 
-3-creation apigateway  websoket avec 4 routes :
-$request.body.action
 
+## 3-creation apigateway  websoket avec 4 routes prédefinies : ##
+Route selection expression : $request.body.action
+Routes prédéfinies :
 - $connect
 - $disconnect
 - $default
@@ -22,7 +25,7 @@ $request.body.action
 
 
 
-4- test
+## 4- test ##
 postman new websocket test, 
 connect
 wss://<id api>.execute-api.us-east-1.amazonaws.com/<stage>/
