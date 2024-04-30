@@ -29,7 +29,7 @@ exemple route $connect
 
 ## 4- test ##
 postman new websocket test, 
-connect
-wss://<id api>.execute-api.us-east-1.amazonaws.com/<stage>/
-send
-{"action": "sendMessage", "message": "hello, everyone!"}
+- connect
+- wss://<id api>.execute-api.us-east-1.amazonaws.com/<stage>/
+- send
+- {"action": "sendMessage", "message": "hello, everyone!"}
