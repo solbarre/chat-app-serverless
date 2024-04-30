@@ -13,7 +13,11 @@ choisir nodejs16.x
 - une pour sendmessage
 le role sera indiqué avant le lab
 
+- contexte
 ![Texte alternatif](Lambda-contexte.png "shema")
+
+- déclencheur exemple
+![Texte alternatif](declencheurLambda.png "shema")
 
 ## 3-creation apigateway  websoket avec 4 routes prédefinies : ##
 Route selection expression : $request.body.action
