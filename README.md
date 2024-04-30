@@ -1,6 +1,6 @@
 Utilisation de terraform.
 
-![Texte alternatif](WebSocket_shema.png"shema")
+![Texte alternatif](WebSocket_shema.png "shema")
 
 ## 1-creer table dynamodb nom à personnaliser, et key de partition : connectionId ##
 
@@ -13,6 +13,7 @@ choisir nodejs16.x
 - une pour sendmessage
 le role sera indiqué avant le lab
 
+![Texte alternatif](Lambda-contexte.png "shema")
 
 ## 3-creation apigateway  websoket avec 4 routes prédefinies : ##
 Route selection expression : $request.body.action
@@ -25,11 +26,11 @@ Routes prédéfinies :
   lambda integration en liant les fonctions crées précedement
 
 exemple route $connect
-![Texte alternatif](APIGatewayRoutes.png"route")
+![Texte alternatif](APIGatewayRoutes.png "route")
 
 ## 4- test ##
 postman new websocket test, 
-connect
-wss://<id api>.execute-api.us-east-1.amazonaws.com/<stage>/
-send
-{"action": "sendMessage", "message": "hello, everyone!"}
+- connect
+- wss://<id api>.execute-api.us-east-1.amazonaws.com/<stage>/
+- send
+- {"action": "sendMessage", "message": "hello, everyone!"}
