@@ -2,6 +2,9 @@ Utilisation de terraform.
 
 ![Texte alternatif](WebSocket_shema.png "shema")
 
+1. https://developer.hashicorp.com/terraform/language/settings/
+2. https://registry.terraform.io/providers/hashicorp/aws/latest/docs
+
 ## 1-creer table dynamodb nom à personnaliser, et key de partition : connectionId ##
 
 ## 2-creation function lambda (4) codes joints au projet ##
