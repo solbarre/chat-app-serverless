@@ -1,6 +1,6 @@
 Utilisation de terraform.
 
-![Texte alternatif](WebSocket_shema.png"shema")
+![Texte alternatif](WebSocket_shema.png "shema")
 
 ## 1-creer table dynamodb nom à personnaliser, et key de partition : connectionId ##
 
@@ -25,7 +25,7 @@ Routes prédéfinies :
   lambda integration en liant les fonctions crées précedement
 
 exemple route $connect
-![Texte alternatif](APIGatewayRoutes.png"route")
+![Texte alternatif](APIGatewayRoutes.png "route")
 
 ## 4- test ##
 postman new websocket test, 
