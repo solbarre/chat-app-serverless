@@ -19,8 +19,6 @@ le role sera indiqué avant le lab
 - contexte
 ![Texte alternatif](Lambda-contexte.png "shema")
 
-- déclencheur exemple
-![Texte alternatif](declencheurLambda.png "shema")
 
 ## 3-creation apigateway  websoket avec 4 routes prédefinies : ##
 création api avec Route selection expression : $request.body.action
@@ -37,6 +35,9 @@ exemple route $connect
 ![Texte alternatif](APIGatewayRoutes.png "route")
 
 - ajout de l'autorisation : lambda_permission (déclencheur)
+- déclencheur exemple
+![Texte alternatif](declencheurLambda.png "shema")
+
 
 - ajout etape (stage)
 
